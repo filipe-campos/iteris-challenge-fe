@@ -1,0 +1,18 @@
+
+const API_HOST = 'http://127.0.0.1';
+const API_PORT = '5000';
+
+
+export const Constants = {
+    ROUTE_LOGIN : API_HOST+':'+API_PORT+'/dashboard/api/v1.0/auth/login',
+
+    CODE_SUCCESS : 200,
+    CODE_BAD_REQUEST : 400,
+    CODE_INVALID_TOKEN : 401,
+    CODE_EXPIRED_TOKEN : 402,
+    CODE_FORBIDEN : 403,
+    CODE_WRONG_LOGIN : 405,
+    CODE_ERROR_DATABASE : 406,
+    CODE_UNKNOW_ERROR : 500,
+    CODE_UNAVALIABLE_SERVICE: 503
+}
